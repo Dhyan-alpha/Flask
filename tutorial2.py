@@ -2,7 +2,7 @@ from flask import Flask, redirect, url_for, render_template
 
 app = Flask(__name__)
 
-"""@app.route("/template")
+@app.route("/template")
 def template():
     return render_template("index.html")
 
@@ -12,7 +12,7 @@ def home(name):
 
 @app.route("/")
 def slas():
-    return render_template("index.html")"""
+    return render_template("index.html")
 
 @app.route("/list")
 def lst():
